@@ -24,8 +24,29 @@
   color: white;
 }
 
+.Home-page {
+  background-color: #55859D;
+  min-height: 100vh;
+  padding: 10px
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.Welcome-message {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 80px;
+  text-align: left;
+}
+
+.Sub-message {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 45px;
 }
 
 @keyframes App-logo-spin {

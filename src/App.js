@@ -1,24 +1,22 @@
 import React from 'react';
 import otter from './images/Otter_Main.jpeg'
+import { Container, Row, Col } from 'reactstrap';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={otter} alt="Otter" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Welcome to Otter Water
-        </a>
-      </header>
+      <Container className="Home-page">
+        <Row className="align-items-center border-bottom border-white">
+          <Col xs="auto">
+          <img src={otter} alt="Otter" />
+          </Col>
+          <Col xs="auto">
+            <h2 className="Welcome-message">Welcome to Otter Water</h2>
+            <p className="Sub-message">A Website by Ronan Kistner</p>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }
