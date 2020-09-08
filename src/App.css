@@ -24,6 +24,11 @@
   color: white;
 }
 
+.Menu-bar {
+  background-color: #55859D;
+  padding: 10px
+}
+
 .Home-page {
   background-color: #55859D;
   min-height: 100vh;
@@ -56,6 +61,17 @@
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px
 }
+
+.Menu-button {
+  background-color: blanchedalmond !important;
+  color: black !important;
+}
+
+.Footer_cell{
+  background-color: #55859D;
+  padding: 10px
+}
+
 
 @keyframes App-logo-spin {
   from {
